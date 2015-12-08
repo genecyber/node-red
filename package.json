@@ -1,0 +1,114 @@
+{
+  "name": "node-red",
+  "version": "0.12.2",
+  "description": "A visual tool for wiring the Internet of Things",
+  "homepage": "http://nodered.org",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/node-red/node-red.git"
+  },
+  "main": "red/red.js",
+  "scripts": {
+    "start": "node red.js",
+    "test": "grunt"
+  },
+  "bin": {
+    "node-red": "./red.js",
+    "node-red-pi": "bin/node-red-pi"
+  },
+  "contributors": [
+    {
+      "name": "Nick O'Leary"
+    },
+    {
+      "name": "Dave Conway-Jones"
+    }
+  ],
+  "keywords": [
+    "editor",
+    "messaging",
+    "iot",
+    "m2m",
+    "pi",
+    "arduino",
+    "beaglebone",
+    "ibm",
+    "flow"
+  ],
+  "dependencies": {
+    "basic-auth": "1.0.3",
+    "bcryptjs": "2.3.0",
+    "body-parser": "1.14.1",
+    "cheerio": "0.19.0",
+    "clone": "1.0.2",
+    "cors": "2.7.1",
+    "cron": "1.0.9",
+    "express": "4.13.3",
+    "follow-redirects": "0.0.7",
+    "fs-extra": "0.26.0",
+    "fs.notify": "0.0.4",
+    "i18next": "1.10.5",
+    "is-utf8": "0.2.0",
+    "media-typer": "0.3.0",
+    "mqtt": "1.4.3",
+    "mustache": "2.2.0",
+    "nopt": "3.0.4",
+    "oauth2orize": "1.1.0",
+    "on-headers": "1.0.1",
+    "passport": "0.3.0",
+    "passport-http-bearer": "1.0.1",
+    "passport-oauth2-client-password": "0.1.2",
+    "raw-body": "2.1.4",
+    "semver": "5.0.3",
+    "sentiment": "0.2.3",
+    "uglify-js": "2.5.0",
+    "when": "3.7.4",
+    "ws": "0.8.0",
+    "xml2js": "0.4.13",
+    "node-red-node-feedparser": "0.1.*",
+    "node-red-node-email": "0.1.*",
+    "node-red-node-twitter": "0.1.*",
+    "node-red-node-rbe": "0.1.*",
+    "node-red-node-serialport": "0.0.*",
+    "bcrypt": "0.8.5"
+  },
+  "optionalDependencies": {
+    "node-red-node-serialport": "0.0.*",
+    "bcrypt": "0.8.5"
+  },
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-chmod": "1.1.1",
+    "grunt-cli": "0.1.13",
+    "grunt-concurrent": "2.0.3",
+    "grunt-contrib-clean": "0.6.0",
+    "grunt-contrib-compress": "0.14.0",
+    "grunt-contrib-concat": "0.5.1",
+    "grunt-contrib-copy": "0.8.2",
+    "grunt-contrib-jshint": "0.11.3",
+    "grunt-contrib-uglify": "0.9.2",
+    "grunt-contrib-watch": "0.6.1",
+    "grunt-jsonlint": "1.0.5",
+    "grunt-nodemon": "0.4.0",
+    "grunt-sass": "1.1.0",
+    "grunt-simple-mocha": "0.4.0",
+    "mocha": "2.3.3",
+    "should": "6.0.3",
+    "sinon": "1.17.2",
+    "supertest": "1.1.0"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "gitHead": "3d5ed840dc2d6ec52e8e277202598504b59c4c52",
+  "readme": "# Node-RED\n\nhttp://nodered.org\n\n[![Build Status](https://travis-ci.org/node-red/node-red.svg)](https://travis-ci.org/node-red/node-red)\n[![Coverage Status](https://coveralls.io/repos/node-red/node-red/badge.svg?branch=master)](https://coveralls.io/r/node-red/node-red?branch=master)\n\nA visual tool for wiring the Internet of Things.\n\n![Node-RED: A visual tool for wiring the Internet of Things](http://nodered.org/images/node-red-screenshot.png)\n\n## Quick Start\n\nCheck out http://nodered.org/docs/getting-started/ for full instructions on getting\nstarted.\n\n1. `sudo npm install -g node-red`\n2. `node-red`\n3. Open <http://localhost:1880>\n\n## Getting Help\n\nMore documentation can be found [here](http://nodered.org/docs).\n\nFor further help, or general discussion, please use the\n[mailing list](https://groups.google.com/forum/#!forum/node-red).\n\n## Developers\n\nIf you want to run the latest code from git, here's how to get started:\n\n1. Install grunt, the build tool\n\n        npm install -g grunt-cli\n\n2. Clone the code:\n\n        git clone https://github.com/node-red/node-red.git\n        cd node-red\n\n3. Install the node-red dependencies\n\n        npm install\n\n4. Build the code\n\n        grunt build\n\n5. Run\n\n        node red.js\n\n## Contributing\n\nBefore raising a pull-request, please read our\n[contributing guide](https://github.com/node-red/node-red/blob/master/CONTRIBUTING.md).\n\n## Authors\n\nNode-RED is a creation of [IBM Emerging Technology](http://ibm.com/blogs/et).\n\n* Nick O'Leary [@knolleary](http://twitter.com/knolleary)\n* Dave Conway-Jones [@ceejay](http://twitter.com/ceejay)\n\nFor more open-source projects from IBM, head over [here](http://ibm.github.io).\n\n## Copyright and license\n\nCopyright 2013, 2015 IBM Corp. under [the Apache 2.0 license](LICENSE).\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/node-red/node-red/issues"
+  },
+  "_id": "node-red@0.12.2",
+  "_shasum": "dafa3fa2676d155c3ec00d8590b0b2ed49309d3a",
+  "_from": "node-red",
+  "_resolved": "file:node-red"
+}
