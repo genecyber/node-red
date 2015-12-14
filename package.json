@@ -91,7 +91,8 @@
     "mocha": "2.3.3",
     "should": "6.0.3",
     "sinon": "1.17.2",
-    "supertest": "1.1.0"
+    "supertest": "1.1.0",
+    "node-red-contrib-ui.git": "git://github.com/andrei-tatar/node-red-contrib-ui.git"
   },
   "optionalDependencies": {
     "node-red-node-serialport": "0.0.*",
